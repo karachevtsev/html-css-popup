@@ -23,5 +23,13 @@
 
   &__apps-link {
     text-align: center;
+
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 }
